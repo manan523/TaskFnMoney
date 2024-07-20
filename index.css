@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background: url("imgBackground.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.headings {
+    list-style: none;
+    display: flex;
+}
+
+.headings li {
+    margin: 0 15px;
+}
+
+.headings a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #f05f57;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.content {
+    text-align: center;
+    padding: 40px 20px;
+}
+.centerHeading{
+    background: black;
+    margin: 4% 40% 2%;
+    padding: 25px;
+}
+.centerHeading h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+.cardDiv {
+    display: flex;
+    column-gap: 1%;
+    margin: 0 13%;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 0px;
+    border-radius: 10px;
+    width: 170px;
+    text-align: center;
+}
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+.card p {
+    margin-bottom: 20px;
+}
